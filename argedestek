@@ -1,0 +1,6 @@
+$ ruby -rubygems -e 'require "jekyll-import";
+    JekyllImport::Importers::WordpressDotCom.run({
+      "source" => "ar-gedestekmerkezi.wordpress.2016-05-28.xml",
+      "no_fetch_images" => false,
+      "assets_folder" => "assets"
+    })'
